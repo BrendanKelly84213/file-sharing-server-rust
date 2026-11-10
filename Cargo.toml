@@ -1,0 +1,3 @@
+[workspace]
+members = ["file-server", "file-client"]
+resolver = "2"

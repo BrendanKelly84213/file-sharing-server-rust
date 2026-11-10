@@ -1,0 +1,64 @@
+# Rust build output
+/target/
+*.rs.bk
+*.pdb
+*.d
+*.rlib
+*.rmeta
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Cargo
+# Cargo.lock is intentionally NOT ignored for binaries/apps (commit it).
+
+# Incremental & profiling output
+/incremental/
+*.profraw
+*.profdata
+*.mch
+perf.data
+perf.data.old
+
+# Rustfmt / clippy artifacts
+*.orig
+*.rej
+
+# IDE / editor
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs & local test data
+*.log
+/logs/
+tmp/
+*.tmp
+
+# Test / coverage output
+/coverage/
+*.gcda
+*.gcno
+*.gcov
+lcov.info
+tarpaulin-report.*
+/criterion/
